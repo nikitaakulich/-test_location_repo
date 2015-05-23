@@ -14,6 +14,8 @@
 @property (nonatomic, strong) NSTimer *timer;
 @end
 
+// some stuff
+
 @implementation ViewController
 
 - (void)viewDidLoad {
