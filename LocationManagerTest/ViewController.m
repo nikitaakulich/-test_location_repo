@@ -14,7 +14,7 @@
 @property (nonatomic, strong) NSTimer *timer;
 @end
 
-// Some cahges for git testing
+// Some changes to revert  blah blah blah
 
 @implementation ViewController
 
@@ -40,10 +40,14 @@
     [self.locationManager startUpdatingLocation];
 }
 
+// some moe stuff
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+// some moe stuff
 
 -(void)timerAction {
     NSLog(@"Timer action");
