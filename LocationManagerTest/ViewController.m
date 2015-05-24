@@ -34,6 +34,8 @@
 //    [[NSRunLoop mainRunLoop] addTimer:self.timer forMode:NSRunLoopCommonModes];
 }
 
+// some more suff here
+
 -(void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
@@ -53,7 +55,7 @@
 -(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations {
     NSLog(@"Location updated: %@", [locations lastObject]);
 //    [self.locationManager stopUpdatingLocation];
-    [self.locationManager CLLocationDistanceMax timeout:10.];
+//    [self.locationManager CLLocationDistanceMax timeout:10.];
     NSLog(@"start deferring");
 }
 
