@@ -9,14 +9,12 @@
 #import "ViewController.h"
 #import <CoreLocation/CoreLocation.h>
 
-// some tst stuff here
 
 @interface ViewController () <CLLocationManagerDelegate>
 @property (nonatomic, strong) CLLocationManager *locationManager;
 @property (nonatomic, strong) NSTimer *timer;
 @end
 
-// some stuff
 
 @implementation ViewController
 
@@ -35,8 +33,6 @@
 //    self.timer = [NSTimer timerWithTimeInterval:3 target:self selector:@selector(timerAction) userInfo:nil repeats:YES];
 //    [[NSRunLoop mainRunLoop] addTimer:self.timer forMode:NSRunLoopCommonModes];
 }
-
-// some more suff here
 
 -(void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
