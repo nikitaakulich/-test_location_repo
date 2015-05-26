@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+// not conflicted
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
